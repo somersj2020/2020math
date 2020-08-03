@@ -1,6 +1,9 @@
 public class MathLogic {
 
     public static void main(String[] args) {
-        System.out.println("testing 123 again");
+        double value = 3.0f;
+        double exponent = 4.0f;
+        double result = Math.pow(value, exponent);
+        System.out.println("result is " + result);
     }
 }
